@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" tag="10" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kNp-Dv-Mut">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="BEg-qi-8bf"/>
+                                    <constraint firstAttribute="width" constant="50" id="Sa5-cS-sSX"/>
+                                </constraints>
+                                <state key="normal" title="相机"/>
+                                <connections>
+                                    <action selector="requestButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zGc-t5-pbc"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="12" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NoN-ca-hay">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="Kop-Tu-19P"/>
+                                    <constraint firstAttribute="width" constant="50" id="MjM-aW-LYW"/>
+                                </constraints>
+                                <state key="normal" title="通讯录"/>
+                                <connections>
+                                    <action selector="requestButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0Z0-bu-jix"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="11" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RNK-Ge-1lP">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="W0T-FL-d4z"/>
+                                    <constraint firstAttribute="width" constant="50" id="iwO-xr-YtW"/>
+                                </constraints>
+                                <state key="normal" title="相册"/>
+                                <connections>
+                                    <action selector="requestButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gbM-zx-8mA"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="13" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CDZ-5E-32d">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="HrG-RI-W7q"/>
+                                    <constraint firstAttribute="width" constant="50" id="udB-1S-Ol9"/>
+                                </constraints>
+                                <state key="normal" title="麦克风"/>
+                                <connections>
+                                    <action selector="requestButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="f83-Oh-Y6K"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="14" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mG1-Bv-Gn1">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="8h5-o3-G8Y"/>
+                                    <constraint firstAttribute="width" constant="50" id="CXp-Qk-CiX"/>
+                                </constraints>
+                                <state key="normal" title="定位"/>
+                                <connections>
+                                    <action selector="requestButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BQB-cF-U4I"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="NoN-ca-hay" firstAttribute="top" secondItem="RNK-Ge-1lP" secondAttribute="bottom" constant="20" id="8So-Bo-qyV"/>
+                            <constraint firstItem="kNp-Dv-Mut" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="8eP-gz-OoB"/>
+                            <constraint firstItem="mG1-Bv-Gn1" firstAttribute="top" secondItem="CDZ-5E-32d" secondAttribute="bottom" constant="20" id="JyL-q7-oU4"/>
+                            <constraint firstItem="mG1-Bv-Gn1" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="RW3-LG-IbP"/>
+                            <constraint firstItem="CDZ-5E-32d" firstAttribute="top" secondItem="NoN-ca-hay" secondAttribute="bottom" constant="20" id="Ray-VZ-2oX"/>
+                            <constraint firstItem="kNp-Dv-Mut" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dk6-XS-cGR"/>
+                            <constraint firstItem="RNK-Ge-1lP" firstAttribute="top" secondItem="kNp-Dv-Mut" secondAttribute="bottom" constant="20" id="dye-V4-Knr"/>
+                            <constraint firstItem="NoN-ca-hay" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="eeO-Gn-nyt"/>
+                            <constraint firstItem="RNK-Ge-1lP" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="id0-8h-ESx"/>
+                            <constraint firstItem="CDZ-5E-32d" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="x4p-M2-l2b"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
