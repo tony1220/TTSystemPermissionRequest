@@ -20,6 +20,16 @@
     return YES;
 }
 
+//char findTheDifference(char* s,char* t)
+//{
+//    unsigned long sLength = atol(s);
+//    unsigned long tLength = atol(t);
+//    int differenceLength = abs((int)(sLength - tLength));
+//    char *l;
+//    sprintf(l, "%d", differenceLength);
+//    return *l;
+//}
+
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

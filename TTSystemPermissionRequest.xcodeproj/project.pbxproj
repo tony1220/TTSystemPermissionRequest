@@ -516,6 +516,7 @@
 				B49197F71DA888FE001AEBEC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B49197F81DA888FE001AEBEC /* Build configuration list for PBXNativeTarget "TTSystemPermissionRequestTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +525,7 @@
 				B49197FA1DA888FE001AEBEC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B49197FB1DA888FE001AEBEC /* Build configuration list for PBXNativeTarget "TTSystemPermissionRequestUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +534,7 @@
 				B49197FD1DA888FE001AEBEC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
